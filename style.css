@@ -1,0 +1,42 @@
+
+.container{
+    display: flex;
+    border: 2px solid black;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*NEW BOOK SECTION*/
+.new-book-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vhpx;
+    width: 300px;
+    border: 2px solid black;
+    align-items: center;
+    padding: 20px;
+}
+
+#new-book-btn{
+    width: 200px;    
+
+}
+
+#new-book-form{
+    display: none;
+}
+
+.form-entry{
+    margin: 30px;
+    
+}
+
+/*BOOKS SECTION*/
+.books-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vhpx;
+    width: 300px;
+    border: 2px solid black;
+    
+}
