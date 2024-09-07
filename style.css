@@ -10,7 +10,7 @@
 .new-book-container{
     display: flex;
     flex-direction: column;
-    height: 100vhpx;
+    max-height: 630px;
     width: 300px;
     border: 2px solid black;
     align-items: center;
@@ -31,12 +31,26 @@
     
 }
 
+.new-books-container > p{
+    color: red;
+    font-weight: bold;
+}
+
 /*BOOKS SECTION*/
 .books-container{
     display: flex;
     flex-direction: column;
-    height: 100vhpx;
+    height: 630px;
     width: 300px;
     border: 2px solid black;
-    
 }
+
+.books-container > div{
+    
+    border: 1px solid black;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    height: 126px;
+}
+
